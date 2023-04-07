@@ -147,7 +147,7 @@ footer{
 
 /* Sidebar */
 aside#sidebar{
-  max-width: 400px;
+  max-width: 600px;
   position: absolute;
   right: 168px;
   top: 260px;
@@ -161,7 +161,15 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 
 /* Main-col */
 article#main-col{
-  max-width: 744px;
+    max-width: 650px;
+  }
+
+/* Services */
+ul#services li{
+    background-color: rgba(211, 211, 211, 0.8);
+    border: 2px solid black;
+    margin-top: 5px;
+    padding: 18px;
 }
 
 footer{
@@ -170,5 +178,5 @@ footer{
     color:#ffffff;
     background-color:#e8491d;
     text-align: center;
- 
 }
+
